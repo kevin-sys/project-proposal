@@ -15,7 +15,7 @@
 	<name>project-proposal</name>
 	<description>Creación del microservicio ms-upc-investigative-committee-register-degree-project-proposal</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
