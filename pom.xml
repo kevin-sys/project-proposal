@@ -101,17 +101,13 @@
 
 
     <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.8</version> <!-- Utiliza una versión compatible con Java 17 -->
-            <configuration>
-                <release>17</release> <!-- Agrega esta línea si la versión del plugin lo requiere -->
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
