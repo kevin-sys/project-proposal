@@ -1,0 +1,30 @@
+<table id="teacher-table">
+    <thead>
+        <tr>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Correo</th>
+            <th>Tipo de Identificación</th>
+            <th>Identificación</th>
+            <th>Celular</th>
+            <th>Id Facultad</th>
+            <th>Id Programa</th>
+            <th>Id Sede</th>
+            <th>Fecha de Registro</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let docente of docentes">
+            <td>{{ docente.nombres }}</td>
+            <td>{{ docente.apellidos }}</td>
+            <td>{{ docente.correo }}</td>
+            <td>{{ docente.tipoIdentificacion }}</td>
+            <td>{{ docente.identificacion }}</td>
+            <td>{{ docente.celular }}</td>
+            <td>{{ docente.idFacultad }}</td>
+            <td>{{ docente.idPrograma }}</td>
+            <td>{{ docente.idSede }}</td>
+            <td>{{ docente.fechaRegistro }}</td>
+        </tr>
+    </tbody>
+</table>

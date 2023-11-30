@@ -1,0 +1,34 @@
+<table id="teacher-table">
+    <thead>
+        <tr>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Correo</th>
+            <th>Tipo de Identificación</th>
+            <th>Identificación</th>
+            <th>Número de Creditos Aprobados</th>
+            <th>Porcentaje de Creditos Aprobados</th>
+            <th>Celular</th>
+            <th>Id Facultad</th>
+            <th>Id Programa</th>
+            <th>Id Sede</th>
+            <th>Fecha de Registro</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let estudiante of estudiantes">
+            <td>{{ estudiante.nombres }}</td>
+            <td>{{ estudiante.apellidos }}</td>
+            <td>{{ estudiante.correo }}</td>
+            <td>{{ estudiante.tipoIdentificacion }}</td>
+            <td>{{ estudiante.identificacion }}</td>
+            <td>{{ estudiante.numeroCreditosAprobados }}</td>
+            <td>{{ estudiante.porcentajeCreditosAprobados }}</td>
+            <td>{{ estudiante.celular }}</td>
+            <td>{{ estudiante.idFacultad }}</td>
+            <td>{{ estudiante.idPrograma }}</td>
+            <td>{{ estudiante.idSede }}</td>
+            <td>{{ estudiante.fechaRegistro }}</td>
+        </tr>
+    </tbody>
+</table>

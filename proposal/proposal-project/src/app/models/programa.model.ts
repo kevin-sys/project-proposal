@@ -1,0 +1,20 @@
+export class Programa {
+	id?:number;
+	codigo?:string;
+	nombrePrograma?:string;
+	facultad?:string;
+	duracion?:number;
+	requisitos?:string;
+	descripcion?:string;
+	creditos?:number;
+	director?:string;
+	cupoMaximo?:number;
+	modalidad?:string;
+	activo?:boolean;
+	nivel?:string;
+	costoMatricula?:number;
+	planEstudios?:string;
+	objetivo?:string;
+	registroSinies?:string;
+	createAt?:string;
+}
