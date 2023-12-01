@@ -7,6 +7,7 @@ COPY target/project-proposal-0.0.1-SNAPSHOT.jar app.jar
 
 # Expone el puerto en el que se ejecuta tu aplicación Spring Boot
 #EXPOSE 8080
+#commit
 
 # Comando para ejecutar tu aplicación Spring Boot
 CMD ["java", "-jar", "app.jar"]
